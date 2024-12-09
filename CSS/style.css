@@ -45,5 +45,5 @@ section div ul:last-child li.active, .second div ul:last-child li.active {
     display: grid;
     grid-template-rows: repeat(3);
     border-top: 1px solid #CCCCCC;
-    border-left: 0
+    border-left: 0px
 }
