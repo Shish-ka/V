@@ -12,18 +12,18 @@ section, .second {
 }
 section div ul:first-child {
     display: flex;
-    background-color: lightgrey;
+    background-color: #F1F1F1;
 }
 section div ul:first-child li, .second div ul:first-child li {
     padding: 20px;
     cursor: pointer;
 }
 section div ul:first-child li.active, section div ul:first-child li:hover {
-    background-color: gray;
+    background-color: #CCCCCC;
 }
 section div ul:last-child li {
     display: none;
-    border: 1px solid lightgrey;
+    border: 1px solid #CCCCCC;
 }
 section div ul:last-child li.active, .second div ul:last-child li.active {
     display: block;
