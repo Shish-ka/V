@@ -40,11 +40,11 @@ section div ul:last-child li.active, .second div ul:last-child li.active {
 .second div ul:first-child {
     display: grid;
     grid-template-rows: repeat(3);
-    border-top: 1px solid #CCCCCC;
-    border-left: 1px solid #CCCCCC;
-    border-bottom: 1px solid #CCCCCC;
 }
 .second div ul:last-child {
     display: grid;
     grid-template-rows: repeat(3);
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
 }
