@@ -24,13 +24,11 @@ section div ul:first-child li.active, section div ul:first-child li:hover {
 }
 section div ul:last-child li {
     display: none;
-    border-left: 1px solid #CCCCCC;
-    border-right: 1px solid #CCCCCC;
-    border-bottom: 1px solid #CCCCCC;
 }
 section div ul:last-child li.active, .second div ul:last-child li.active {
     display: block;
     padding: 10px;
+    border: 1px solid #CCCCCC;
 }
 
 .second div  {
@@ -44,6 +42,4 @@ section div ul:last-child li.active, .second div ul:last-child li.active {
 .second div ul:last-child {
     display: grid;
     grid-template-rows: repeat(3);
-    border-top: 1px solid #CCCCCC;
-    border-left: none
 }
